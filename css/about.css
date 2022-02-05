@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url(../15.jpg);
+	background-size: cover;
+
+}
+
+.title{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 50px;
+	font-family: century ;
+	font-size: 20px;
+	color: black;
+
+}
+
+.title h2{
+	color: black;
+	font-size: 15px;
+	font-family: century gothic;
+
+}
+
+.pic{
+	display: flex;
+}
+
+.pic img{
+	width: 560px;
+	height: 380px;
+	padding: 50px;
+	margin-bottom: 50px;
+
+}
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	padding: 10px;
+}
+
+.intro h2{
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
